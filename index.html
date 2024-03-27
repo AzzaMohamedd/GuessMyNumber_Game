@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+                
+</head>
+<body>
+    <div id="header">
+        <span><input id="inputAgain" type="submit" value="Again!"></span>
+        <span id="between">Between 1 and 20</span>
+    </div>
+    <h1 id="guessH">Guess My Number!</h2>
+    <div id="correctNum">?</div>
+
+    <div id="game">
+        <div id="leftSide">
+            <input id="inputNum" type="number">
+            <button id="btnCheck">Check!</button>
+        </div>
+        <div id="rightSide">
+            <div id="guessMsg">Start guessing...</div>
+            <div id="highMsg">&#128314;Too high</div>
+            <div id="lowMsg">&#128315;Too low</div>
+            <div id="correctMsg">&#127942;Correct number!</div>
+            <br>
+            <div>&#128204;Score: <span id="score">20</span></div>
+            <div>&#129321;Highscore: <span id="highscore">0</span></div>
+        </div>
+    </div>
+    <script src="./js/GMNumber.js"></script>
+</body>
+</html>
